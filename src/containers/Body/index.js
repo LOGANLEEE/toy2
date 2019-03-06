@@ -9,8 +9,8 @@ import { ClipLoader } from 'react-spinners';
 import * as action from './action';
 import * as actionTypes from './actionTypes';
 
-import ContentRenderer from '../../components/ContentRenderer';
-import ErrorPage from '../../components/ErrorPage';
+import ContentRenderer from 'components/ContentRenderer';
+import ErrorPage from 'components/ErrorPage';
 import Wrapper from './Wrapper';
 
 class Body extends React.Component {

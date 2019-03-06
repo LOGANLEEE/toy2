@@ -4,7 +4,7 @@ import CircularProgressbar from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 
 import Wrapper from './Wrapper';
-import no_img from '../../images/no_img.png';
+import no_img from 'images/no_img.png';
 
 const poster_url = 'https://image.tmdb.org/t/p/w300_and_h450_bestv2/';
 const backdrop_url = 'https://image.tmdb.org/t/p/w1400_and_h450_face/';
@@ -103,8 +103,7 @@ const ContentRenderer = (props) => {
                     attended <b>{vote_count} for vote this moive!</b>
                 </div>
                 <div className='original_language mg'>
-                    Language:
-                    <b>{original_language === 'en' ? 'ENGLISH' : 'NO'}</b>
+                    Language: <b>{original_language}</b>
                 </div>
                 {/* <div className='genre_ids'>{genre_ids}</div> */}
                 <div className='overview mg'>

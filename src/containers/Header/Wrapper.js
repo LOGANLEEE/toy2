@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import avengers2 from '../../images/avengers2.png';
+import avengers2 from 'images/avengers2.png';
 
 const Wrapper = styled.div`
     /* color: #ffa500; */
