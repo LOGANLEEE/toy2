@@ -8,7 +8,9 @@
     "license": "MIT",
     "dependencies": {
         "graphql-yoga": "^1.17.4",
-        "nodemon": "^1.18.10"
+        "nodemon": "^1.18.10",
+        "prisma": "^1.26.6",
+        "prisma-client-lib": "^1.28.0"
     },
     "scripts": {
         "start": "nodemon"

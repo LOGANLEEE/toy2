@@ -6,6 +6,8 @@
     "axios": "^0.18.0",
     "graphql-yoga": "^1.17.4",
     "nodemon": "^1.18.10",
+    "primeicons": "^1.0.0",
+    "primereact": "^3.1.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.2",
     "react-apollo": "^2.4.1",
