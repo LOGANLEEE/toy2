@@ -7,6 +7,7 @@ type Link {
     url: String!
     postBy: User
 }
+#  One to Many Link to User
 
 type User {
     id: ID! @unique
