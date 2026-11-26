@@ -16,5 +16,8 @@
     },
     "scripts": {
         "start": "nodemon"
+    },
+    "resolutions": {
+        "node-forge": "^1.4.4"
     }
 }
